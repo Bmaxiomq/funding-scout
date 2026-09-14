@@ -1,0 +1,76 @@
+name: Funding Rate Scout (Serverless)
+
+on:
+  schedule:
+    # Every 4 hours at minute 7 (avoids GitHub's top-of-hour congestion)
+    - cron: '7 */4 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Skip Telegram alert and git commit'
+        required: false
+        default: 'false'
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: funding-scout
+  cancel-in-progress: false
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run funding rate scout
+        id: scout
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          python scripts/funding_rate_scout_gha.py
+
+      - name: Commit results
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/funding/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(funding): scout run $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: funding-scout-${{ github.run_number }}
+          path: |
+            data/funding/funding_latest.json
+            data/funding/funding_rates.jsonl
+          retention-days: 30
+          if-no-files-found: warn
