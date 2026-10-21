@@ -1,9 +1,9 @@
 {
-  "ts": "2026-10-21T04:28:26+00:00",
+  "ts": "2026-10-21T13:40:52+00:00",
   "status": "ok",
   "venue": "hyperliquid",
   "n_assets": 234,
-  "duration_s": 0.35,
+  "duration_s": 0.66,
   "majors": [
     {
       "venue": "hyperliquid",
@@ -11,8 +11,8 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 82783.6,
-      "open_interest": 40943.3711
+      "mark": 83531.5,
+      "open_interest": 41402.73248
     },
     {
       "venue": "hyperliquid",
@@ -20,26 +20,26 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 2444.1,
-      "open_interest": 1075212.7449999996
+      "mark": 2467.2,
+      "open_interest": 1100743.552799999
     },
     {
       "venue": "hyperliquid",
       "coin": "SOL",
-      "funding_8h": 5.2243e-06,
-      "funding_8h_pct": 0.000522,
-      "ann_pct": 0.57,
-      "mark": 105.76,
-      "open_interest": 5394388.320000002
+      "funding_8h": 1.25e-05,
+      "funding_8h_pct": 0.00125,
+      "ann_pct": 1.37,
+      "mark": 106.68,
+      "open_interest": 5435820.9
     },
     {
       "venue": "hyperliquid",
       "coin": "HYPE",
-      "funding_8h": 8.7334e-06,
-      "funding_8h_pct": 0.000873,
-      "ann_pct": 0.96,
-      "mark": 80.835,
-      "open_interest": 20343340.72
+      "funding_8h": 1.25e-05,
+      "funding_8h_pct": 0.00125,
+      "ann_pct": 1.37,
+      "mark": 80.548,
+      "open_interest": 20417654.039999984
     },
     {
       "venue": "hyperliquid",
@@ -47,8 +47,8 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 1.3318,
-      "open_interest": 178860958.0
+      "mark": 1.3569,
+      "open_interest": 174570448.0
     },
     {
       "venue": "hyperliquid",
@@ -56,8 +56,8 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 0.081476,
-      "open_interest": 1170248958.0
+      "mark": 0.082093,
+      "open_interest": 1177987438.0
     },
     {
       "venue": "hyperliquid",
@@ -65,118 +65,109 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 741.33,
-      "open_interest": 56787.426
+      "mark": 744.85,
+      "open_interest": 55198.222
     }
   ],
   "top_abs_ann": [
     {
       "venue": "hyperliquid",
-      "coin": "MOODENG",
-      "funding_8h": -0.0001385073,
-      "funding_8h_pct": -0.013851,
-      "ann_pct": -15.17,
-      "mark": 0.041521,
-      "open_interest": 8265532.0
+      "coin": "W",
+      "funding_8h": -0.0003799707,
+      "funding_8h_pct": -0.037997,
+      "ann_pct": -41.61,
+      "mark": 0.01501,
+      "open_interest": 319325011.2000001
     },
     {
       "venue": "hyperliquid",
-      "coin": "RSR",
-      "funding_8h": -0.000101415,
-      "funding_8h_pct": -0.010142,
-      "ann_pct": -11.1,
-      "mark": 0.001916,
-      "open_interest": 322063614.0
+      "coin": "XMR",
+      "funding_8h": -6.11584e-05,
+      "funding_8h_pct": -0.006116,
+      "ann_pct": -6.7,
+      "mark": 600.29,
+      "open_interest": 155209.702
     },
     {
       "venue": "hyperliquid",
-      "coin": "NIL",
-      "funding_8h": -7.41999e-05,
-      "funding_8h_pct": -0.00742,
-      "ann_pct": -8.12,
-      "mark": 0.087574,
-      "open_interest": 60696016.0
+      "coin": "NEAR",
+      "funding_8h": 4.82343e-05,
+      "funding_8h_pct": 0.004823,
+      "ann_pct": 5.28,
+      "mark": 5.1878,
+      "open_interest": 73400572.79999995
+    },
+    {
+      "venue": "hyperliquid",
+      "coin": "FET",
+      "funding_8h": -4.6548e-05,
+      "funding_8h_pct": -0.004655,
+      "ann_pct": -5.1,
+      "mark": 0.19508,
+      "open_interest": 50667242.0
     },
     {
       "venue": "hyperliquid",
       "coin": "BLUR",
-      "funding_8h": -7.30259e-05,
-      "funding_8h_pct": -0.007303,
-      "ann_pct": -8.0,
-      "mark": 0.009286,
-      "open_interest": 77437422.0
-    },
-    {
-      "venue": "hyperliquid",
-      "coin": "SAND",
-      "funding_8h": -6.42904e-05,
-      "funding_8h_pct": -0.006429,
-      "ann_pct": -7.04,
-      "mark": 0.057458,
-      "open_interest": 26440770.0
-    },
-    {
-      "venue": "hyperliquid",
-      "coin": "MOVE",
-      "funding_8h": -4.94079e-05,
-      "funding_8h_pct": -0.004941,
-      "ann_pct": -5.41,
-      "mark": 0.007455,
-      "open_interest": 42098366.0
-    },
-    {
-      "venue": "hyperliquid",
-      "coin": "S",
-      "funding_8h": -3.79508e-05,
-      "funding_8h_pct": -0.003795,
-      "ann_pct": -4.16,
-      "mark": 0.056323,
-      "open_interest": 20327902.0
-    },
-    {
-      "venue": "hyperliquid",
-      "coin": "SEI",
-      "funding_8h": -2.5622e-05,
-      "funding_8h_pct": -0.002562,
-      "ann_pct": -2.81,
-      "mark": 0.061155,
-      "open_interest": 64222006.0
-    },
-    {
-      "venue": "hyperliquid",
-      "coin": "DOT",
-      "funding_8h": -2.29843e-05,
-      "funding_8h_pct": -0.002298,
-      "ann_pct": -2.52,
-      "mark": 1.1613,
-      "open_interest": 4865681.8
+      "funding_8h": -4.26404e-05,
+      "funding_8h_pct": -0.004264,
+      "ann_pct": -4.67,
+      "mark": 0.009196,
+      "open_interest": 76586022.0
     },
     {
       "venue": "hyperliquid",
       "coin": "kPEPE",
-      "funding_8h": 1.98986e-05,
-      "funding_8h_pct": 0.00199,
-      "ann_pct": 2.18,
-      "mark": 0.004511,
-      "open_interest": 7159575886.0
+      "funding_8h": 3.24512e-05,
+      "funding_8h_pct": 0.003245,
+      "ann_pct": 3.55,
+      "mark": 0.004599,
+      "open_interest": 8116740370.0
     },
     {
       "venue": "hyperliquid",
-      "coin": "TRX",
-      "funding_8h": -1.52373e-05,
-      "funding_8h_pct": -0.001524,
-      "ann_pct": -1.67,
-      "mark": 0.331022,
-      "open_interest": 35704736.0
+      "coin": "SAND",
+      "funding_8h": -2.96827e-05,
+      "funding_8h_pct": -0.002968,
+      "ann_pct": -3.25,
+      "mark": 0.057393,
+      "open_interest": 26021556.0
     },
     {
       "venue": "hyperliquid",
       "coin": "BERA",
-      "funding_8h": -1.41993e-05,
-      "funding_8h_pct": -0.00142,
-      "ann_pct": -1.55,
-      "mark": 0.17102,
-      "open_interest": 10248408.8
+      "funding_8h": -2.575e-05,
+      "funding_8h_pct": -0.002575,
+      "ann_pct": -2.82,
+      "mark": 0.17689,
+      "open_interest": 10192468.0
+    },
+    {
+      "venue": "hyperliquid",
+      "coin": "ZEC",
+      "funding_8h": 2.53487e-05,
+      "funding_8h_pct": 0.002535,
+      "ann_pct": 2.78,
+      "mark": 1303.4,
+      "open_interest": 559585.8000000002
+    },
+    {
+      "venue": "hyperliquid",
+      "coin": "WLFI",
+      "funding_8h": -1.3319e-05,
+      "funding_8h_pct": -0.001332,
+      "ann_pct": -1.46,
+      "mark": 0.056654,
+      "open_interest": 194816876.0
+    },
+    {
+      "venue": "hyperliquid",
+      "coin": "SEI",
+      "funding_8h": -1.32053e-05,
+      "funding_8h_pct": -0.001321,
+      "ann_pct": -1.45,
+      "mark": 0.061622,
+      "open_interest": 62404930.0
     },
     {
       "venue": "hyperliquid",
@@ -184,8 +175,8 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 82783.6,
-      "open_interest": 40943.3711
+      "mark": 83531.5,
+      "open_interest": 41402.73248
     },
     {
       "venue": "hyperliquid",
@@ -193,8 +184,17 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 2444.1,
-      "open_interest": 1075212.7449999996
+      "mark": 2467.2,
+      "open_interest": 1100743.552799999
+    },
+    {
+      "venue": "hyperliquid",
+      "coin": "ATOM",
+      "funding_8h": 1.25e-05,
+      "funding_8h_pct": 0.00125,
+      "ann_pct": 1.37,
+      "mark": 1.7455,
+      "open_interest": 2273303.7800000003
     },
     {
       "venue": "hyperliquid",
@@ -202,10 +202,20 @@
       "funding_8h": 1.25e-05,
       "funding_8h_pct": 0.00125,
       "ann_pct": 1.37,
-      "mark": 0.11878,
-      "open_interest": 13315367.2
+      "mark": 0.12078,
+      "open_interest": 13270210.8
     }
   ],
-  "outlier_count": 0,
-  "outliers": []
+  "outlier_count": 1,
+  "outliers": [
+    {
+      "venue": "hyperliquid",
+      "coin": "W",
+      "funding_8h": -0.0003799707,
+      "funding_8h_pct": -0.037997,
+      "ann_pct": -41.61,
+      "mark": 0.01501,
+      "open_interest": 319325011.2000001
+    }
+  ]
 }
